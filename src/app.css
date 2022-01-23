@@ -21,6 +21,12 @@ button {
 	font-size: 14px;
 }
 
+.floating{
+	position: fixed;
+	right: 20px;
+	bottom: 20px
+}
+
 /**
 	* Sidebar CSS
 	*/
