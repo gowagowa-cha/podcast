@@ -18,13 +18,29 @@ button {
 }
 
 .author {
-	font-size: 14px;
+  font-size: 14px;
 }
 
-.floating{
-	position: fixed;
-	right: 20px;
-	bottom: 20px
+.modal {
+  max-width: 600px;
+  max-height: 300px;
+  margin: 100px auto;
+  background-color: #fff;
+	overflow-y: auto;
+	> h1{
+		text-align: center;
+	}
+	.modal-content{
+		padding: 10px;
+	}
+}
+
+
+
+.floating {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
 }
 
 /**
@@ -32,7 +48,7 @@ button {
 	*/
 
 #sidebar {
-  background-color: #42A1F4;
+  background-color: #42a1f4;
   padding: 15px;
 }
 
